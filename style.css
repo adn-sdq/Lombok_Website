@@ -13,20 +13,22 @@ body{
 header{
     flex-basis: 100%;
     background-color: #fdfcfe;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     height:680px;
     display: flex;
     flex-wrap: wrap;
 }
 #articles{
     flex-basis: 100%;
-    border-bottom: 1px solid black;
-    height: 760px;
+    /* border-bottom: 1px solid black; */
+    height: 880px;
 }
 #about{
     flex-basis: 100%;
     border-bottom: 1px solid black;
-    height:500px;
+    height:600px;
+    display: flex;
+    flex-wrap: wrap;
 }
 #subscribe{
     flex-basis: 100%;
@@ -65,15 +67,15 @@ nav{
     flex-basis:12%;
     font-family: 'Rajdhani', sans-serif;
 }
-.logo a,.head-2 a,.head-3 a,.head-4 a{
+#logo a,.head-2 a,.head-3 a,.head-4 a{
     text-decoration: none;
-    color: black;
+    color: #3a3f39;
     position: relative;
     top:37px;
     left:40px;
     font-size: 20px;
 }
-.logo a{
+#logo a{
     font-size: 30px;
     top:28px;
 }
@@ -88,13 +90,7 @@ nav{
     padding:10px 15px;
     left:10px;
 }
-.logo a:hover{
-    color: #385f2b;
-}
-.head-2 a:hover{
-    color: #385f2b;
-}
-.head-3 a:hover{
+#logo a:hover,.head-2 a:hover,.head-3 a:hover{
     color: #385f2b;
 }
 .head-4 a:hover{
@@ -118,7 +114,7 @@ nav{
 .main_pic h1{
     position: relative;
     margin-left: 1000px;
-    color:#385f2b;
+    color:#3a3f39;
     font-size: 130px;
     font-family: 'Rajdhani', sans-serif;
     font-weight: 900;
@@ -128,8 +124,138 @@ nav{
 .main_pic h2{
     position: relative;
     margin-left: 995px;
-    color:#385f2b;
+    color:#3a3f39;
     font-size: 35px;
     font-family: 'Rajdhani', sans-serif;
     margin-top: 0px;
+    margin-bottom: 25px;
+}
+.main_pic hr{
+    background-color: #758b7f;
+    width: 5%;
+    height: 6px;
+    position: relative;
+    left:1080px;
+    margin:0px;
+}
+#articles h1{
+    color:#3a3f39;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 100px;
+    margin-bottom:0;
+}
+.articles_hr{
+    background-color:#3a3f39;
+    width: 5%;
+    height: 4px;
+    margin-top:13px;
+    margin-bottom:70px;
+}
+.article{
+    display: flex;
+    flex-wrap: wrap;
+}
+.article-1{
+    flex-basis: 25%;
+    /* border: 1px black solid; */
+    height:480px;
+    margin-left: 110px;
+    margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.article-2{
+    flex-basis: 25%;
+    /* border: 1px black solid; */
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.article-3{
+    flex-basis: 25%;
+    /* border: 1px black solid; */
+    margin-left: 40px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.upper,.lower{
+    flex-basis: 100%;
+    height:240px;
+    /* border: 1px black solid;  */
+}
+.lower{
+  box-shadow:  0px 0px 17px 5px  #b8b8b8;
+  box-shadow: 0px 5px 17px #b8b8b8;
+}
+.upper{
+  box-shadow:  0px -5px 17px #b8b8b8;
+}
+.article-1 .upper{
+    background-image: url("images/6.jpg");
+    background-size: cover;
+}
+.article-2 .upper{
+    background-image: url("images/7.jpg");
+    background-size: cover;
+}
+.article-3 .upper{
+    background-image: url("images/8.jpg");
+    background-size: cover;
+}
+.lower hr{
+    background-color:#3a3f39;
+    width: 12%;
+    height: 4px;
+    position: relative;
+    top:70px;
+}
+.lower_content{
+    color:#3a3f39;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 900;
+    position: relative;
+    top:90px;
+    padding: 0 20px;
+    line-height: 40px;
+}
+.left_part{
+    flex-basis: 50%;
+    /* border: 1px black solid; */
+    height:600px;
+    background-image: url("images/9.jpg");
+    background-size: cover;
+}
+.right_part{
+    flex-basis: 50%;
+    /* border: 1px black solid; */
+    height:600px;
+    background-color: #fdfdfd;
+}
+.right_part h1{
+    color:#3a3f39;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    position: relative;
+    margin-top: 130px;
+    margin-bottom: 0;
+}
+.right_part hr{
+    background-color:#3a3f39;
+    width: 5%;
+    height: 4px;
+}
+.right_content{
+    padding:50px 90px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    text-align:justify;
+    font-weight: 900;
+    color:#3a3f39;
+    line-height: 40px;
 }
