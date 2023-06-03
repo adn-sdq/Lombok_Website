@@ -25,20 +25,23 @@ header{
 }
 #about{
     flex-basis: 100%;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     height:600px;
     display: flex;
     flex-wrap: wrap;
 }
 #subscribe{
     flex-basis: 100%;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     height:450px;
+    background-color: #e1e6e0;
 }
 #footer{
     flex-basis: 100%;
-    border-bottom: 1px solid black;
-    height:215px;
+    /* border-bottom: 1px solid black; */
+    height:120px;
+    display: flex;
+    flex-wrap: wrap;
 }
 nav{
     flex-basis:97%;
@@ -58,14 +61,17 @@ nav{
 .head-2{
     flex-basis:14%;
     font-family: 'Rajdhani', sans-serif;
+    font-weight: 900;
 }
 .head-3{
     flex-basis:14%;
     font-family: 'Rajdhani', sans-serif;
+    font-weight: 900;
 }
 .head-4{
     flex-basis:12%;
     font-family: 'Rajdhani', sans-serif;
+    font-weight: 900;
 }
 #logo a,.head-2 a,.head-3 a,.head-4 a{
     text-decoration: none;
@@ -86,7 +92,7 @@ nav{
     left:60px;
 }
 .head-4 a{
-    border:2px black solid;
+    border:2px #3a3f39 solid;
     padding:10px 15px;
     left:10px;
 }
@@ -259,3 +265,78 @@ nav{
     color:#3a3f39;
     line-height: 40px;
 }
+#subscribe h1,#subscribe h2{
+    color:#3a3f39;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+#subscribe h1{
+    padding-top:50px;
+    margin-bottom: 0;
+}
+#subscribe h2{
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+#email{
+    padding:22px 190px 22px 20px;
+    border: 0;
+    position: relative;
+    left:560px;
+    top:22px;
+    font-size: 16px;
+}
+#submit{
+    padding: 8px 35px;
+    background-color: #e1e6e0;
+    position: relative;
+    left:695px;
+    top:60px;
+    font-size: 20px;
+    color:#3a3f39;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 900;
+    border: 2px #3a3f39 solid;
+}
+.ig,.tw,.fb,.pt{
+    flex-basis: 3%;
+    border:1px #3a3f39 solid;
+    background-color: #3a3f39;
+    border-radius: 50%;
+    width:5%;
+    height:36%;
+    position:relative;
+    left:90px;
+    top:90px;
+}
+.tw{
+    position: relative;
+    left:105px;
+}
+.fb{
+    position: relative;
+    left:120px;
+}
+.pt{
+    position: relative;
+    left:135px;
+}
+.footer_about,.footer_articles,.footer_subscribe{
+    flex-basis: 9%;
+    position: relative;
+    left:900px;
+    top:100px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+}
+.footer_about a,.footer_articles a,.footer_subscribe a{
+    text-decoration: none;
+    color:#3a3f39;
+}
+.footer_about a:hover,.footer_articles a:hover,.footer_subscribe a:hover{
+    text-decoration: none;
+    color: #385f2b;
+}
+
