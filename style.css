@@ -299,6 +299,11 @@ nav{
     font-weight: 900;
     border: 2px #3a3f39 solid;
 }
+#submit:hover{
+    color:#e1e6e0;
+    background-color: #3a3f39;
+    border: 2px #e1e6e0 solid;
+}
 .ig,.tw,.fb,.pt{
     flex-basis: 3%;
     border:1px #3a3f39 solid;
@@ -321,6 +326,12 @@ nav{
 .pt{
     position: relative;
     left:135px;
+}
+#img1,#img2,#img3,#img4{
+    position: relative;
+    left:12px;
+    top:12px;
+    width:20px;
 }
 .footer_about,.footer_articles,.footer_subscribe{
     flex-basis: 9%;
