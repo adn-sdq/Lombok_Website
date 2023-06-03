@@ -49,7 +49,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
 }
-logo{
+#logo{
     flex-basis:60%;
     font-family: 'Cinzel Decorative', cursive;
 }
